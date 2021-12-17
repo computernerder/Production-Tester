@@ -354,6 +354,8 @@ delay(100);
                 lane[7][x] = true;
               }
           }
+
+          //This is an update.
               //Active    ==  current count   currentcnt = l
       /*else if((lane[1][x] == lane[2][x]) && (lane[2][x] == lane[4][x]) && (lane[2][x] == lane[6][x]) && mode == 1){
               digitalWrite(green_led_pin[x], HIGH);
